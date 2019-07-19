@@ -1,0 +1,52 @@
+body{
+    background-image: url("../pictures/turtle-background.png");
+    background-size:30%;
+    background-repeat:repeat;
+}
+
+.container{
+    padding:0.68in;
+    margin: 2.26in 1.68in;
+    background-image:linear-gradient(teal,green);
+    text-align: center;
+    border:solid teal 10px;
+    border-radius:4px;
+}
+
+.screen{
+    border:solid teal 3px;
+    border-radius:4px;
+    padding:5%;
+    background-color:#87e087;
+    color:teal;
+}
+
+.figure-button{
+    margin:30px;
+}
+.figure-button:hover{
+    cursor: pointer;
+    border:teal 3px solid;
+    border-radius:4px;
+    padding:0;
+    background-color: green;
+}
+
+.flex-row{
+    display: flex-row;
+    justify-content: space-around
+}
+
+.button{
+    width:250px;
+    background-image:linear-gradient(teal,green);
+    border-radius:4px;
+    display:inline-block;
+    margin:5px;
+    color:#87e087;
+}
+
+.button:hover{
+    cursor: pointer;
+    border: 5px green solid;
+}
