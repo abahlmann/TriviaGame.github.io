@@ -4,49 +4,76 @@ body{
     background-repeat:repeat;
 }
 
-.container{
-    padding:0.68in;
-    margin: 2.26in 1.68in;
-    background-image:linear-gradient(teal,green);
+.container {
+    padding: 0.68in;
+    margin: 1.68in 2.26in 2.26in 1.68in;
+    background-image: linear-gradient(teal,#87e087);
     text-align: center;
-    border:solid teal 10px;
-    border-radius:4px;
+    border: solid #00FF00 10px;
+    border-radius: 4px;
 }
 
-.screen{
-    border:solid teal 3px;
-    border-radius:4px;
-    padding:5%;
-    background-color:#87e087;
-    color:teal;
+.screen {
+    border: solid #00FF00 3px;
+    border-radius: 4px;
+    padding: 5%;
+    background-image: linear-gradient(#87e087,#00FF00);
+    color: teal;
 }
 
-.figure-button{
-    margin:30px;
+.figure-button {
+    margin-top: 3em;
+    border: #00FF00 3px dotted;
+    border-radius: 4px;
 }
 .figure-button:hover{
     cursor: pointer;
-    border:teal 3px solid;
+    border:teal 3px dotted;
     border-radius:4px;
     padding:0;
-    background-color: green;
 }
 
-.flex-row{
-    display: flex-row;
-    justify-content: space-around
+.flex-box{
+    display:inline-flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
 }
 
-.button{
-    width:250px;
-    background-image:linear-gradient(teal,green);
-    border-radius:4px;
+.button {
+    background-image: linear-gradient(teal,#87e087);
+    border: 5px #87e087 solid;
+    border-radius: 4px;
+    margin: 5px;
+    color: #87e087;
+}
+
+p{
+    padding:1.5em;
     display:inline-block;
-    margin:5px;
-    color:#87e087;
+    width:250px;
+    height:75px;
+    font-size: 1.5em;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h1{
+    padding:0;
+    margin:1em;
+    font-size:3.5em;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow:5px 5px 3px #00FF00;
+}
+
+h2{
+    font-size: 2em;
+    padding-bottom:2em;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 .button:hover{
     cursor: pointer;
-    border: 5px green solid;
+    border: 5px #00FF00 solid;
+    color:#00FF00;
+    background-color:#87e087;
+    box-shadow:5px 5px 5px #00FF00;
 }
