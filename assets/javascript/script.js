@@ -38,12 +38,7 @@ var prompt = [
             "6 feet long",
             "10 feet long"
         ]
-    },
-    {//3
-
     }
-
-
 ];
 
 //functions
