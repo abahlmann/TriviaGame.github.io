@@ -66,7 +66,7 @@ function interval(){
                 incompleteAns++;
             };
 
-            if (qi < prompt.length - 1) {
+            if (qi < prompt.length) {
                 qi++;
                 displayQuestion(qi);
             }
@@ -106,7 +106,7 @@ $("#a").on("click", function () {
     guess = button.value[0];
     compareValue(prompt[qi].correctLetter, guess);
     guessed = true;
-    if (qi < prompt.length - 1) {
+    if (qi < prompt.length) {
         displayQuestion(qi);
         interval();
         qi++;
@@ -122,7 +122,7 @@ $("#b").on("click", function () {
     compareValue(prompt[qi].correctLetter, guess);
     clearInterval(intervalId);
     guessed = true;
-    if (qi < prompt.length - 1) {
+    if (qi < prompt.length) {
         displayQuestion(qi);
         qi++;
     }
@@ -137,7 +137,7 @@ $("#c").on("click", function () {
     compareValue(prompt[qi].correctLetter, guess);
     clearInterval(intervalId);
     guessed = true;
-    if (qi < prompt.length - 1) {
+    if (qi < prompt.length) {
         displayQuestion(qi);
         qi++;
     }
