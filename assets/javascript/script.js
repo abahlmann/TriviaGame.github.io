@@ -151,7 +151,7 @@ $("#d").on("click", function () {
     compareValue(prompt[qi].correctLetter, guess);
     clearInterval(intervalId);
     guessed = true;
-    if (qi < prompt.length - 1) {
+    if (qi < prompt.length){
         displayQuestion(qi);
         qi++;
     }
