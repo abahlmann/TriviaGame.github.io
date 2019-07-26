@@ -70,7 +70,7 @@ function interval(){
                 qi++;
                 displayQuestion(qi);
             }
-            else if (qi===prompt.length-1) {
+            else {
                 displayResults();
             }
         }
